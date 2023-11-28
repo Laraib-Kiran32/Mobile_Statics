@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&family=Lato:ital,wght@0,300;1,300&display=swap');
+
+body{
+    background: rgb(75, 73, 73);
+    font-family: 'Lato',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+background-color: #1c253f;
+width: 350px;
+height: 720px;
+border-radius: 40px;
+margin-top: 10px;
+
+}
+i.nav-icon{
+    color:#585f8b;
+    font-size: 1.3rem;
+    cursor: pointer;
+    
+}
+div.dot{
+    width: 10px;
+    height: 10px;
+    background: rgb(182, 44, 182);
+    border-radius: 50%;
+    top: 0;
+    right: 0;
+}
+span.heading{
+    color: #fff0ff;
+    font-size: 2em;
+    font-weight: 900;
+    letter-spacing: 2px;
+
+}
+span.sub-heading{
+    color:#585f8b;
+    font-size: 0.8em;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+div.menue{
+    color: #585f8b;
+    background: #162037;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+span.active{
+    background: linear-gradient(to right, #ce23ff, #a02ff6);
+    color: #fff0ff;
+    border-radius: 10px;
+    margin: 5px;
+
+}
+span.filter{
+    color: #585f8b;
+    background: #162037;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span.add-filter{
+    color: #585f8b;
+    background: #162037;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+i.filter-icon{
+    font-size: 10px;
+}
+span.filter-active{
+    color: #fff0ff;
+}
+
+span.expense-label{
+    color: #fff0ff;
+    position: relative;
+    z-index: 0;
+}
+span.expense-label::before{
+    content: "";
+    position: absolute;
+    background: #4d2472;
+    width: 64px;
+    height: 9px;
+    top: 38px;
+    left: 15px;
+    z-index: -1;
+}
+span.expense{
+    color: #fff0ff;
+   letter-spacing: 3px;
+    font-size: 34px;
+    font-weight: 900;
+
+}
+div.bar-1{
+    bottom: 0;
+    width: 20px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #ff91c2, #f359fd);
+}
+div.bar-2{
+    width: 20px;
+    background: #2a3350;
+    border-radius: 5px;
+    
+}
+span.chart-label{
+color:#585f8b;
+font-size: 10px;
+font-weight: 900;
+}
+div.chart-bg{
+    background: #162037;
+    border-radius: 25px;
+}
